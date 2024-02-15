@@ -1,4 +1,3 @@
-'''
 print("Created by CyberEasy")
 import phonenumbers 
 from phonenumbers import timezone,geocoder, carrier 
@@ -24,7 +23,4 @@ Region = geocoder.description_for_number(phoneNumber, 'en')
 print (num_3)
 print(Carrier) 
 print(Region) 
-print(timeZone) 
-'''
-import phonenumbers
-print(dir())
+print(timeZone)
